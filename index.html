@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .footer-link {
+            margin: 8px;
+        }
+        .nav {
+            display: flex;
+            flex-direction: column;
+        }
+        .header,
+        .container,
+        .footer {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:small;
+        }
+
+        .header {
+            height: 10%;
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .container {
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer {
+            height: 10%;
+            width: 100%;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            background: #d3d3ce;
+            display: flex;
+            flex-direction: column;
+        }
+        .item {
+            flex-grow: 6;
+            }
+    </style>
+</head>
+
+<body class="nav">
+    <header>
+        <div class="header">
+            <a href="#" class="footer-link"><button type="button" style="background-color: royalblue; color:snow; border: blue; border-radius:3px; height:24px; width:75px;">Connexion</button></a>
+            <a href="#" class="footer-link"><img src="googlebox.png" width="26px" height="18px"></a>
+            <a href="#" class="footer-link">Images</a>
+            <a href="#" class="footer-link">Gmail</a>
+        </div>
+    </header>
+    <container class="container" style="display:flex;justify-content:center;align-items:center;">
+        <div 
+        style="width:300px;height:100px;"></div>
+        </div>
+    <div>
+         <img src="google.png" width="300px" height="100px">
+    </div>
+    <div>
+        <input class="footer-link" type="search" style="border-radius:15px; width:350px; height:30px"></input>
+        <br>
+    </div>
+    <div>
+        <br>
+        <button class="footer-link" type="button" style="border:none; height:30px">Recherche Google</button>
+        <button class="footer-link" type="button" style="border:none; height:30px">J'ai de la chance</button>
+    </div>
+    </container>
+    <footer>
+        <div class="footer">
+            <span class="footer-link">France</span>
+            <div>
+                <hr>
+            </div>
+            <div>
+                <span>
+                    <a href="#" class="footer-link">Entreprise</a> 
+                    <a href="#" class="footer-link">À propos</a>
+                    <a href="#" class="footer-link">Comment fonctionne la recherche Google ?</a>
+                </span>
+                <span style="float:right">
+                    <a href="#" class="footer-link">Info consommateurs</a>
+                    <a href="#" class="footer-link">Confidentialité</a> 
+                    <a href="#" class="footer-link">Conditions</a>
+                    <a href="#" class="footer-link">Paramètres</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
